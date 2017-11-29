@@ -20,6 +20,7 @@ That's it!
 ## Examples
 - [Docker Intro](intro)
 - [Dependencies](dependencies)
+- [Running Container](running-container)
 - [Express App](express-app)
 - [Legacy Rails App](legacy-rails-project)
 - [Wordpress](wordpress)

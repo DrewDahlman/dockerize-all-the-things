@@ -1,0 +1,9 @@
+version: '2'
+services:  
+  builder:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - ./:/app
+      - /app/node_modules
