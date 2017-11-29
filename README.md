@@ -1,4 +1,4 @@
-# dockerize-all-the-things
+# Dockerize All The Things
 Make your life easier by using containers for everything. This repo will walk through adding docker to your workflow and reducing the need to ever install deps ( Gems, Node Modules, etc ) on your system but instead rely on Docker for all of that. 
 
 ## Intro
