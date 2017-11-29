@@ -75,7 +75,6 @@ So WTF is this?
 		- `build` - What to build
 			- `context` - The context in which docker is running
 			- `dockerfile` - Point to our dockerfile.
-		- `ports` - Ports to expose ( see the Dockerfile ) you can map these to your local machine. If we wanted to run our app on port `80` on our machine but 8080 on the container it could be `80:8080`
 		- `volumes` - Here we map where data is coming from and dependecies for our app.
 			- `./:/app` - Looking at the Dockerfile you see that we are adding all local files to the container, and putting them in an `app` directory and making that our working directory. This means that everything in the directory is now in the container but this volume means that everything local stays in sync with our container.
 		- `commands` - If you want to run a specific command on a container after it's been created and booted, here we are just running `npm start` which is defined in our Dockerfile.
