@@ -1,0 +1,36 @@
+version: '2'
+services:
+  bundle:
+    image: ruby:latest
+    command: /bin/true
+    volumes:
+      - /bundle
+  db:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=dev
+      - POSTGRES_PASSWORD=secret
+    volumes:
+      - "db-data:/var/lib/postgresql/data"
+  app:
+    build: config/docker
+    command: bash -c "rm -f tmp/pids/server.pid && bundle install && bundle exec rake db:create && bundle exec rake db:migrate && bundle exec rails s -p 3000 -b '0.0.0.0'"
+    environment:
+      - BUNDLE_GEMFILE=/app/Gemfile
+      - BUNDLE_JOBS=7
+      - BUNDLE_PATH=/bundle
+    volumes:
+      - .:/app
+      - .:/data
+    volumes_from:
+      - bundle
+      - db
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+
+volumes:
+  db-data:

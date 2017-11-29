@@ -1,0 +1,8 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: docker_rails_db
+  pool: 5
+  username: dev
+  password: secret
+  host: db
