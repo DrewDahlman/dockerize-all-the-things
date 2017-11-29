@@ -1,0 +1,8 @@
+version: '2'
+services:  
+  app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.crystal
+    volumes:
+      - ./docker_test/:/app

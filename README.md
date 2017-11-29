@@ -20,7 +20,11 @@ That's it!
 ## TOC
 - [Docker Intro](intro)
 - [Dependencies](dependencies)
-- [Express App](express_app)
-- [Legacy Rails App](legacy_rails_project)
+- [Express App](express-app)
+- [Legacy Rails App](legacy-rails-project)
+- [Crystal](crystal)
+
+## Closing
+The concepts here could be applied to any language, and setup. Through all of this I hope it's clear that with the right configuration you can easily dockerize anything including legacy apps to make your workflow easier and get your teams up and running faster with fewer headaches.
 
 

@@ -1,0 +1,9 @@
+name: docker_test
+version: 0.1.0
+
+authors:
+  - Drew Dahlman <info@drewdahlman.com>
+
+crystal: 0.23.1
+
+license: MIT
