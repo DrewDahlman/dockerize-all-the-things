@@ -18,7 +18,7 @@ In order to run these code examples you will need the folllowing:
 That's it! 
 
 ## TOC
-- [Docker Intro](DrewDahlman/dockerize-all-the-things/tree/master/intro)
-- [Dependencies](DrewDahlman/dockerize-all-the-things/tree/master/dependencies)
+- [Docker Intro](intro)
+- [Dependencies](dependencies)
 
 
