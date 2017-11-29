@@ -21,5 +21,6 @@ That's it!
 - [Docker Intro](intro)
 - [Dependencies](dependencies)
 - [Express App](express_app)
+- [Legacy Rails App](legacy_rails_app)
 
 
