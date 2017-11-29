@@ -100,4 +100,8 @@ CMD ["/run.sh"]
 ```
 
 ## Working
-After you've run `docker-compose up` you can work on the site just as you normally would.
+After you've run `docker-compose up` you can work on the site just as you normally would. A neat thing here is that you can export the database as a sql file and check that in so that your team can clone the repo and start off with the exact same setup without having to do anything.
+
+To export the database just run `docker-compose exec wordpress sh -c "cd /data && wp db export --path=/app --allow-root"`
+
+This will create a sql dump in a data directory. This is helpful in dev when the backend is being worked on and content, custom fields, acf or other plugins are being installed. All you have to do is remove the container and then build again by running `docker-compose build`
