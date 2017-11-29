@@ -15,6 +15,3 @@ ADD . /app
 
 ## Run npm install
 RUN npm install
-
-## Expose a port to use 
-EXPOSE 8080

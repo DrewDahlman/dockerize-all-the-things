@@ -22,9 +22,6 @@ ADD . /app
 
 ## Run npm install
 RUN npm install
-
-## Expose a port to use 
-EXPOSE 8080
 ```
 
 What you see here is describing our container. Let's go over a couple things quickly.
@@ -66,8 +63,6 @@ services:
     build:
       context: .
       dockerfile: docker/Dockerfile
-    ports:
-      - 8080:8080
     volumes:
       - ./:/app
     command: /bin/bash -c "npm start"
