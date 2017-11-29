@@ -1,5 +1,5 @@
 # Dockerize All The Things
-Make your life easier by using containers for everything. This repo will walk through adding docker to your workflow and reducing the need to ever install deps ( Gems, Node Modules, etc ) on your system but instead rely on Docker for all of that. 
+Make your life easier by using containers for everything. This repo will walk through adding docker to your workflow and reducing the need to ever install deps ( Gems, Node Modules, etc ) on your system but instead rely on Docker for all of that. No more worrying about an update to osX to break all of your applications, because it's in a container you are free to just work.
 
 ## Intro
 You know what is awful? Picking up a project that is using outdated versions that differ from your system. We have tools for that ( rbenv, RVM, NVM ) which help with this but you can still run into weird issues where even still things just don't work and you wind up spinning your wheels trying to get things to install and running before you can even start dev.
