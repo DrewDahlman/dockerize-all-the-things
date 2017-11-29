@@ -167,7 +167,7 @@ dependencies_builder_1 exited with code 1
 
 This is erroring out because our container isn't aware that our package.json has been updated. To fix this just run `docker-compose rm` ( answer Y to remove the container ) then `docker-compose build builder`
 - Note here the full command would be `docker-compose build <service>`
-- Also note that we are remove the container, the reason for this is that sometimes the containers will hold on `docker-compose down`
+- Also note that we are remove the container, the reason for this is that sometimes the containers will hold on `docker-compose down` So it's best to just destroy the container and rebuild.
 
 After that run `docker-compose up` and you should see something like this:
 

@@ -6,7 +6,7 @@ You know what is awful? Picking up a project that is using outdated versions tha
 
 The purpose of this project is to show how radical using containers is and how you can avoid ever having to install dependencies on your system beyond the core essentials for scaffolding apps.
 
-Using containers in this manner means teams can get spun up on projects faster and start contributing to the code.
+Using containers in this manner means teams can get spun up on projects faster and start contributing to the code. It also allows you to mirror environments so your dev and your production environments are always the same.
 
 ## Tools
 In order to run these code examples you will need the folllowing:
