@@ -1,0 +1,12 @@
+version: '2'
+services:  
+  builder:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - 8080:8080
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    command: /bin/bash -c "npm start"

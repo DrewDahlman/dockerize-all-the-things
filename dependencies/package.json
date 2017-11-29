@@ -1,0 +1,15 @@
+{
+  "name": "dockerize-all-the-things-intro",
+  "version": "1.0.0",
+  "description": "An intro to docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Drew Dahlman",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
