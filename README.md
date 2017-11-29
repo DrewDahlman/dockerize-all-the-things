@@ -27,6 +27,6 @@ In order to run these code examples you will need the folllowing:
 That's it! 
 
 ## TOC
-- [Docker Intro](DrewDahlman/dockerize-all-the-things/blob/master/intro/readme.md)
+- [Docker Intro](DrewDahlman/dockerize-all-the-things/tree/master/intro)
 
 
