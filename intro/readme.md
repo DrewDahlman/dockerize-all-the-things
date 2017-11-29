@@ -40,7 +40,7 @@ We are running `npm install` for this example though we have no dependencies. On
 ## Commands
 Docker has a few essential commands to know, these will help you as you move through these projects.
 
-### Basicis
+### Basics
 - `docker-compose ps` - Lists any running containers and their current status / port 
 - `docker-compose up` - Starts docker 
 - `docker-compose down` - Stops all running containers
@@ -75,7 +75,7 @@ So WTF is this?
 		- `build` - What to build
 			- `context` - The context in which docker is running
 			- `dockerfile` - Point to our dockerfile.
-		- `volumes` - Here we map where data is coming from and dependecies for our app.
+		- `volumes` - Here we map where data is coming from and dependencies for our app.
 			- `./:/app` - Looking at the Dockerfile you see that we are adding all local files to the container, and putting them in an `app` directory and making that our working directory. This means that everything in the directory is now in the container but this volume means that everything local stays in sync with our container.
 		- `commands` - If you want to run a specific command on a container after it's been created and booted, here we are just running `npm start` which is defined in our Dockerfile.
 

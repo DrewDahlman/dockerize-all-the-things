@@ -9,7 +9,7 @@ The purpose of this project is to show how radical using containers is and how y
 Using containers in this manner means teams can get spun up on projects faster and start contributing to the code. It also allows you to mirror environments so your dev and your production environments are always the same.
 
 ## Tools
-In order to run these code examples you will need the folllowing:
+In order to run these code examples you will need the following:
 - Docker
 	- [OSX](https://docs.docker.com/docker-for-mac/install/)
 	- [Windows](https://docs.docker.com/docker-for-windows/install/)

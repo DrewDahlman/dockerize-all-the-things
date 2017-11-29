@@ -87,7 +87,7 @@ builder_1  | npm info ok
 dependencies_builder_1 exited with code 0
 ```
 
-Notice that now you have a `node_modules` in your directory, but there is nothing in there. This is created as a reference for our app but all modules are install on the container.
+Notice that now you have a `node_modules` in your directory, but there is nothing in there. This is created as a reference for our app but all modules are installed on the container.
 
 Check out `index.js`
 

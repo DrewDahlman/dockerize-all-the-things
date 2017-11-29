@@ -51,6 +51,6 @@ To see if this working let's run `crystal run src/docker_test.cr` you should see
 hello world!
 ```
 
-Now in your IDE edit that file and change the message and then in your console run that command again and you should see your message. This is showing that even through we're in a container our app is still referncing our code on our local machine.
+Now in your IDE edit that file and change the message and then in your console run that command again and you should see your message. This is showing that even though we're in a container our app is still referencing our code on our local machine.
 
 Let's build a production version of the app! just run `crystal build src/docker_test.cr` After that you will see that a new file has been created on your system and that's the final executable from crystal. This was again all done using the container.

@@ -51,7 +51,7 @@ volumes:
 
 We now have a number of services and bundles, as well as just using images vs our own Dockerfiles.
 
-Some things to look at is how they are all being connected. In this example each of these services is it's own container, in order for them to work together we have to make them aware of eachother.
+Some things to look at is how they are all being connected. In this example each of these services is it's own container, in order for them to work together we have to make them aware of each other.
 
 To do this we use `volumes_from` which allows docker to connect these containers. Some magic is done behind the scenes here and we get some neat features.
 
