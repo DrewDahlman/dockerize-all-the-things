@@ -1,7 +1,9 @@
 # Running Container
 Sometimes you might just want to start a container and run all your commands inside of it - including adding dependencies to your app, starting your app, or configuring things. Luckily that is super easy to do as well.
 
-If you look at the [crystal example](DrewDahlman/dockerize-all-the-things/tree/master/crystal) you will see that our Dockerfile has `ENTRYPOINT ["tail", "-f", "/dev/null"]` this can be used to keep the container from exiting once it has run. 
+If you look at the [crystal example](/crystal) you will see that our Dockerfile has `ENTRYPOINT ["tail", "-f", "/dev/null"]` this can be used to keep the container from exiting once it has run. 
+
+Notice that in the [Express App](/express-app), [Legacy Rails](/legacy-rails-project) and [Wordpress](/wordpress) the container stays running, that is because each of those has a process that doesn't exit. You can define that process by using the `ENTRYPOINT` or by having a process start that doesn't exit on completion.
 
 For this example we will be using the Dependencies example as our base, but a couple modifications to our docker-compose file and our Dockerfile and we can easily get into the container to add dependencies and run our app.
 
