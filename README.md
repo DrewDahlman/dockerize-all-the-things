@@ -25,6 +25,10 @@ That's it!
 - [Legacy Rails App](legacy-rails-project)
 - [Wordpress](wordpress)
 - [Crystal](crystal)
+- [Docker Commands](docker-commands)
+
+## Further reading
+I highly suggest going through the [docker documentation](https://docs.docker.com/) as well as using [Dockerhub](https://hub.docker.com/) to find images to use as your bases for Dockerfiles.
 
 ## Closing
 The concepts here could be applied to any language, and setup. Through all of this I hope it's clear that with the right configuration you can easily dockerize anything including legacy apps to make your workflow easier and get your teams up and running faster with fewer headaches.
