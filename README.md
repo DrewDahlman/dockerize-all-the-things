@@ -22,6 +22,7 @@ That's it!
 - [Dependencies](dependencies)
 - [Express App](express-app)
 - [Legacy Rails App](legacy-rails-project)
+- [Wordpress](wordpress)
 - [Crystal](crystal)
 
 ## Closing

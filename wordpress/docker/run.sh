@@ -113,22 +113,6 @@ else
   printf "Already exists!\n"
 fi
 
-
-# .htaccess
-# ---------
-# if [ ! -f /app/.htaccess ]; then
-#   printf "=> Generating .htaccess file... "
-#   if [[ "$MULTISITE" == 'true' ]]; then
-#     printf "Cannot generate .htaccess for multisite!"
-#   else
-#     sudo -u www-data wp rewrite flush --hard >/dev/null 2>&1 || \
-#       ERROR $LINENO "Could not generate .htaccess file"
-#     printf "Done!\n"
-#   fi
-# else
-#   printf "=> .htaccess exists. SKIPPING...\n"
-# fi
-
 # Filesystem Permissions
 # ----------------------
 printf "=> Adjusting filesystem permissions... "
