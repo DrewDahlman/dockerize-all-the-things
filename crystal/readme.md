@@ -1,6 +1,8 @@
 # Crystal
 [Crystal](https://crystal-lang.org/) is one of my new favorite languages, it's clean, powerful and written like ruby which I also enjoy a lot. This example is how you could create a container to run things on a VM and work only in the command line.
 
+This is a great example of being able to start an app and run it without ever having to install the core language. Just run it in a container.
+
 ## Runnings
 - `docker-compose up`
 
