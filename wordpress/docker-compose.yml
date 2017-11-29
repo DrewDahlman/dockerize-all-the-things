@@ -1,0 +1,28 @@
+version: '2'
+services:
+  wordpress:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.wordpress
+    links:
+      - db
+    ports:
+      - 8080:80
+    volumes:
+      - ./data:/data # Required if importing an existing database
+      - ./:/app
+    environment:
+      DB_NAME: wordpress
+      DB_PASS: root # must match below
+      WP_DEBUG: 'true'
+  db:
+    image: mysql:5.7
+    ports:
+      - 3306:3306
+    volumes:
+      - data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+volumes:
+  data: {}
+
