@@ -8,15 +8,6 @@ The purpose of this project is to show how radical using containers is and how y
 
 Using containers in this manner means teams can get spun up on projects faster and start contributing to the code.
 
-## What we will cover
-- Starting a new app
-	- Rails
-	- Node
-	- Wordpress
-	- Crystal
-	- Micro Services
-		- Crystal
-
 ## Tools
 In order to run these code examples you will need the folllowing:
 - Docker
