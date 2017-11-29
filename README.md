@@ -17,7 +17,7 @@ In order to run these code examples you will need the folllowing:
 
 That's it! 
 
-## TOC
+## Examples
 - [Docker Intro](intro)
 - [Dependencies](dependencies)
 - [Express App](express-app)
