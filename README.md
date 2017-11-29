@@ -8,6 +8,8 @@ The purpose of this project is to show how radical using containers is and how y
 
 Using containers in this manner means teams can get spun up on projects faster and start contributing to the code. It also allows you to mirror environments so your dev and your production environments are always the same.
 
+These examples are all fairly basic, but also should serve as a guide in dockerizing your dev workflow. These mainly are using docker compose v2+
+
 ## Tools
 In order to run these code examples you will need the following:
 - Docker
