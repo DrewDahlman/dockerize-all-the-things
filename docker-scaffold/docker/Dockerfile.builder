@@ -13,11 +13,5 @@ WORKDIR /app
 ## Add all of the root files into the container ( Note you can specify things vs bringing everything over )
 ADD . /app
 
-## Run npm install for globals
-RUN npm install express-generator -g
-
 ## Install anything from our package
 RUN npm install
-
-## Comment this line after scaffolding the app
-ENTRYPOINT ["tail", "-f", "/dev/null"]

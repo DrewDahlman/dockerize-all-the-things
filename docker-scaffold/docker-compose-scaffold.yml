@@ -1,12 +1,12 @@
-version: '2'
+version: '3'
 services:  
-  builder:
+  scaffold:
     build:
       context: .
-      dockerfile: docker/Dockerfile.builder
+      dockerfile: docker/Dockerfile.scaffold
     ports:
       - 3000:3000
     volumes:
       - ./:/app
       - /app/node_modules
-    command: /bin/bash -c "npm start"
+    # command: /bin/bash -c "express"
