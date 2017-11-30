@@ -50,6 +50,8 @@ Now you can edit your code in your IDE and it will be synced up with your contai
 ## Post scaffold
 After you do the initial scaffold of the app you can comment out the `ENTRYPOINT` from the dockerfile and then add the command in `docker-compose.yml`
 
+Make sure to run `docker-compose down` and then make your changes, then run `docker-compose build` after making these changes in order for your container to know there are changes. From that point you should good to go.
+
 ```yml
 version: '2'
 services:  
