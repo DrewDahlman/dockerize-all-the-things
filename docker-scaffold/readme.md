@@ -22,7 +22,7 @@ services:
 ```
 
 Dockerfile.scaffold 
-```bash
+```dockerfile
 ## Use specific version of node
 FROM node:8.7.0
 
