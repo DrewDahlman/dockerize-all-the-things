@@ -20,15 +20,15 @@ In order to run these code examples you will need the following:
 That's it! 
 
 ## Examples
-- [Docker Intro](intro)
-- [Dependencies](dependencies)
-- [Running Container](running-container)
-- [Express App](express-app)
-- [Legacy Rails App](legacy-rails-project)
-- [Wordpress](wordpress)
-- [Docker Scaffold](docker-scaffold)
-- [Crystal](crystal)
-- [Docker Commands](docker-commands)
+- [Docker Intro](intro) - Intro to docker
+- [Dependencies](dependencies) - Working with dependencies
+- [Running Container](running-container) - Running a container and sshing into it
+- [Express App](express-app) - An existing express app
+- [Docker Scaffold](docker-scaffold) - Scaffold an express app from Docker
+- [Legacy Rails App](legacy-rails-project) - A legacy rails project
+- [Wordpress](wordpress) - A fresh wordpress install 
+- [Crystal](crystal) - Running and building a Crystal App
+- [Docker Commands](docker-commands) - List of must know docker commands
 
 ## Further reading
 I highly suggest going through the [docker documentation](https://docs.docker.com/) as well as using [Dockerhub](https://hub.docker.com/) to find images to use as your bases for Dockerfiles.
