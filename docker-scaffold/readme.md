@@ -1,6 +1,8 @@
 # Docker Scaffold And Project Start
 Starting a project from docker without having any dependencies installed locally. You could use something like this to create an app from scratch and do all code generation from within a container.
 
+This example is interactive and you should follow the steps to see how it works.
+
 ## Run
 - `docker-compose up`
 	- This will start a running container.
