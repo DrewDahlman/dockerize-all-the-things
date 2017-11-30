@@ -26,6 +26,7 @@ That's it!
 - [Express App](express-app)
 - [Legacy Rails App](legacy-rails-project)
 - [Wordpress](wordpress)
+- [Docker Scaffold](docker-scaffold)
 - [Crystal](crystal)
 - [Docker Commands](docker-commands)
 
