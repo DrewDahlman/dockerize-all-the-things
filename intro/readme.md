@@ -4,7 +4,7 @@ Let's go over a simple Dockerfile as well as Docker Compose.
 ## Dockerfile
 You will see in `docker/Dockerfile` a file that describes our container. In this example we are using Node v8.7.0.
 
-```bash
+```dockerfile
 ## Use specific version of node
 FROM node:8.7.0
 
@@ -87,7 +87,7 @@ When this is run Docker will initialize `docker-compose.yml` file and start buil
 
 You should see the following: ( this is after docker has installed any required images )
 
-```bash
+```dockerfile
 Creating network "intro_default" with the default driver
 Building builder
 Step 1/7 : FROM node:8.7.0

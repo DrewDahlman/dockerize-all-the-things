@@ -67,7 +67,7 @@ This docker compose file is also setting up our mysql server and setting up our 
 
 If you look at the `Dockerfile.wordpress` you can see the base image being used as well as installing of apache and setup.
 
-```bash
+```dockerfile
 FROM tutum/apache-php
 
 # Install mysql-client, unzip, git-all

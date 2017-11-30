@@ -42,7 +42,7 @@ If you wanted to just run the app from port 80, but keep express running at 3000
 
 Running `docker-compose up` ( after all NPM install has completed ) you should see the following:
 
-```bash
+```dockerfile
 Creating expressapp_builder_1 ...
 Creating expressapp_builder_1 ... done
 Attaching to expressapp_builder_1

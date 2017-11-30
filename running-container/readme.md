@@ -22,7 +22,7 @@ services:
 Notice we no longer have the command for after boot. That's because in our Dockerfile we have an entry point that keeps the container from exiting.
 
 `docker/Dockerfile`
-```bash
+```dockerfile
 ## Use specific version of node
 FROM node:8.7.0
 

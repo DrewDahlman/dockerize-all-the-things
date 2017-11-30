@@ -9,7 +9,7 @@ This is a great example of being able to start an app and run it without ever ha
 ## Getting started
 Let's start by looking at the `Dockerfile.crystal`
 
-```bash
+```dockerfile
 ## Use the crystal docker image
 FROM crystallang/crystal
 
@@ -47,7 +47,7 @@ Once this is up and running we can now run our crystal app! In a new console run
 
 To see if this working let's run `crystal run src/docker_test.cr` you should see the following: 
 
-```bash
+```dockerfile
 hello world!
 ```
 

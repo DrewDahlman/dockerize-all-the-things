@@ -8,7 +8,7 @@ For this example let's install lodash as a dependency and use it in our script. 
 
 You will see the following output:
 
-```bash
+```dockerfile
 Creating network "dependencies_default" with the default driver
 Building builder
 Step 1/7 : FROM node:8.7.0
@@ -123,7 +123,7 @@ console.log("#####################################");
 
 Now if you run `docker-compose up` again you will see the following:
 
-```bash
+```dockerfile
 Starting dependencies_builder_1 ...
 Starting dependencies_builder_1 ... done
 Attaching to dependencies_builder_1
@@ -171,7 +171,7 @@ This is erroring out because our container isn't aware that our package.json has
 
 After that run `docker-compose up` and you should see something like this:
 
-```bash
+```dockerfile
 Creating dependencies_builder_1 ...
 Creating dependencies_builder_1 ... done
 Attaching to dependencies_builder_1
