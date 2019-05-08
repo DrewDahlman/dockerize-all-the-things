@@ -1,5 +1,5 @@
 ## Use specific version of node
-FROM node:8.7.0
+FROM node:11-stretch
 
 ## Get anything we may need for our container and run updates
 RUN apt-get update -qq && apt-get install -y build-essential
